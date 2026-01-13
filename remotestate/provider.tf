@@ -9,7 +9,7 @@ terraform {
     bucket = "remotestate-wasdaws"
     key = "remote-state-demo"
     region = "us-east-1"
-    use_lock_file = true
+    use_lockfile = true
     encrypt = true
   }
 }
