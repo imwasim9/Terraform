@@ -19,6 +19,6 @@ resource "aws_security_group" "allow_all" {
   }
 
   tags= {
-    Name = allow_all_dynamic_blocks
+    Name = "allow_all_dynamic_blocks"
   }
 }
