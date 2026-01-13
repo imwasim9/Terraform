@@ -9,11 +9,12 @@ terraform {
   backend "s3"{
     bucket = "remotestate-wasdaws"
     key = "remotestate_dynamic-blocks"
+    region = "us-east-1"
     use_lockfile = true
     encrypt = true
   }
 }
 
 provider "aws"{
-    
+
 }
