@@ -10,11 +10,11 @@ terraform {
     bucket = "remotestate-wasdaws"
     key = "remotestate-locals-merge"
     region = "us-east-1"
-    use_loclfile = true
+    use_lockfile = true
     encrypt = true
   }
 }
 
 provider "aws"{
-    
+
 }
